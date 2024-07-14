@@ -83,9 +83,6 @@ export default function DetailPage({ params }: { params: { id: string } }) {
         <div className="grid gap-6 md:gap-8">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold">{project.name}</h1>
-            <p className="text-muted-foreground text-lg md:text-xl">
-              Revolutionize your vision with our cutting-edge mobile app.
-            </p>
           </div>
           <div className="grid gap-4">
             <div>
